@@ -43,11 +43,10 @@ describe("Variables en JS", () => {
     it("Completa todas las variables que faltan para que se cumplan las condiciones", () => {
 
         let a = 10;
-        let b = 101;
-        let c = "undefined";
+        let b = 100;
+        let c = undefined;
         let d = "hello";
-        let n = 
-
+        let n = 'Que quieres que te responda';
 
         expect(a > 9).to.be.true;
         expect(a < 11).to.be.true;
